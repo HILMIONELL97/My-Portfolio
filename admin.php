@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>HILMI's portfolio</title>
+    <title>HILMI'S PORTFOILIO</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -25,7 +28,7 @@
     <!-- Favicon
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/cooltext360548234087074.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/cooltext360548234087074.png">
 
     <!-- Stylesheets
     ================================================== -->
@@ -46,7 +49,7 @@
 
 <body>
 
-    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+<header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
         <nav id="primary-navigation" class="site-navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
@@ -64,27 +67,43 @@
 
                 <div class="main-menu" id="portfolio-perfect-collapse">
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin:0 10rem!important;">
 
-                        <li class="page-scroll"><a href="#hero">Intro</a></li>
-                        <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Service</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Works</a></li>
-                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        <!-- <li class="page-scroll"><a href="#hero">Intro</a></li> -->
+                        <!-- <li class="page-scroll"><a href="#about">About</a></li> -->
+                        <!-- <li class="page-scroll"><a href="#service">Service</a></li> -->
+                        <!-- <li class="page-scroll"><a href="#portfolio">My Works</a></li> -->
+                        <!-- <li class="page-scroll"><a href="#contact">Contact</a></li> -->
+                        
+                        
+                        
+                        <!-- <form action="includes/login.inc.php" method="POST" class="page-scroll">
+                        
+                            <li class="page-scroll"><input type="password" name="pwd" placeholder="Password"></li>
+                            <li class="page-scroll"><input type="text" name="uid" placeholder="Username"></li>
+                            <li class="page-scroll"><button type="submit" name="login-submit">Login</button></li>
+
+                        </form> -->
+
+                        
 
                     </ul>
                     <!-- /.navbar-nav -->
 
-                </div>
-                <!-- /.navbar-collapse -->
+				</div>
+				<button class="btn-LOG btn-fill" onclick="window.location.href='includes/logout.inc.php'" style="float:right;">Logout</button>
 
+                <!-- /.navbar-collapse -->
             </div>
         </nav>
         <!-- /.primary-navigation -->
     </header>
-    <!-- /#header -->
+	<!-- /#header -->
+	
 
-    <div id="hero" class="hero">
+
+
+<div id="hero" class="hero">
         <div class="container">
             <div class="row">
 
@@ -104,12 +123,12 @@
 
             </div>
         </div>
-    </div>
-    <!-- /.hero -->
+    </div> -->
+    <!-- /.hero
 
     <main id="main" class="site-main">
 
-        <section id="about" class="site-section section-about text-center">
+        <!-- <section id="about" class="site-section section-about text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
@@ -120,11 +139,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- /.secton-about -->
+        </section> -->
+       
 
-        <section class="site-section section-skills">
-            <div class="container">
+        <!-- <section class="site-section section-skills"> -->
+            <!-- <div class="container">
                 <div class="text-center">
                     <h3>My Skills</h3>
                     <img src="assets/img/lines.svg" class="img-lines" alt="lines">
@@ -134,68 +153,68 @@
                         <div class="skill">
                             <h4>Html/css</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div>
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div> -->
                                 <!-- /.progress-bar -->
-                            </div>
+                            <!-- </div> -->
                             <!-- /.progress -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.skill -->
-                        <div class="skill">
+                        <!-- <div class="skill">
                             <h4>My SQL</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="65"></div>
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="65"></div> -->
                                 <!-- /.progress-bar -->
-                            </div>
+                            <!-- </div> -->
                             <!-- /.progress -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.skill -->
-                    </div>
+                    <!-- </div>
                     <div class="col-md-4">
                         <div class="skill">
                             <h4>Javascript</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div>
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div> -->
                                 <!-- /.progress-bar -->
-                            </div>
+                            <!-- </div> -->
                             <!-- /.progress -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.skill -->
-                        <div class="skill">
+                        <!-- <div class="skill">
                             <h4>Node JS</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div>
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div> -->
                                 <!-- /.progress-bar -->
-                            </div>
+                            <!-- </div> -->
                             <!-- /.progress -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.skill -->
-                    </div>
+                    <!-- </div>
                     <div class="col-md-4">
                         <div class="skill">
                             <h4>Php</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div>
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div> -->
                                 <!-- /.progress-bar -->
-                            </div>
+                            <!-- </div> -->
                             <!-- /.progress -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.skill -->
-                        <div class="skill">
+                        <!-- <div class="skill">
                             <h4>JQuery</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div>
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div> -->
                                 <!-- /.progress-bar -->
-                            </div>
+                            <!-- </div> -->
                             <!-- /.progress -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.skill -->
-                    </div>
-                </div>
-            </div>
-        </section>
+                    <!-- </div> -->
+                <!-- </div>
+            </div> -->
+        <!-- </section> -->
         <!-- /.secton-skills -->
 
-        <section id="service" class="site-section section-services overlay text-center">
+        <!-- <section id="service" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -207,9 +226,9 @@
                             <img src="assets/img/front-end.svg" alt="Front End Developer">
                             <h4>Front-end</h4>
                             <p>As a web developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript frameworks.</p>
-                        </div>
+                        </div> -->
                         <!-- /.service -->
-                    </div>
+                    <!-- </div>
                     <div class="col-sm-4">
                     </div>
                     <div class="col-sm-4">
@@ -219,11 +238,11 @@
                             <p>Utilising php frameworks , I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
                         </div>
                         <!-- /.service -->
-                    </div>
+                    <!-- </div>
                 </div>
             </div>
-        </section>
-        <!-- /.secton-services -->
+        </section> --> 
+        
 
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
@@ -266,37 +285,34 @@
                         <!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <!-- <div class="portfolio-item">
-                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
+                        <div class="portfolio-item">
+                            <img src="assets/img/Annotation-2020-09-13-223730.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div> -->
+                                <h4>Dynamiser l'horloge</h4>
+                                <a href="https://hilmionell97.github.io/Montre-Analogie-Project/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div>
                         <!-- /.portfolio-item-info -->
                     </div>
                     <!-- /.portfolio-item -->
                 </div>
-                <!-- <div class="col-md-4 col-xs-6">
+                <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
+                            <img src="assets/img/Annotation-2020-09-13-225331.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div> -->
+                                <h4>Intégration d'une section siteweb</h4>
+                                <a href="https://hilmionell97.github.io/Mini-projet/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div>
                 <!-- /.portfolio-item-info -->
             </div>
             <!-- /.portfolio-item -->
             </div>
-            <!-- <div class="col-md-4 col-xs-6">
+            <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
+                            <img src="assets/img/my-portfolio.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div> -->
+                                <h4>My Portfolio</h4>
+                                <a href="http://localhost/my%20portfolio/index.php"><span class="glyphicon glyphicon-link"></span></a>
+                            </div> 
             <!-- /.portfolio-item-info -->
             </div>
             <!-- /.portfolio-item -->
@@ -306,7 +322,7 @@
         </section>
         <!-- /.secton-portfolio -->
 
-        <section class="site-section section-counters text-center">
+        <!-- <section class="site-section section-counters text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
@@ -323,10 +339,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- /.section-counters -->
 
-        <section id="contact" class="site-section section-form text-center">
+        <!-- <section id="contact" class="site-section section-form text-center">
             <div class="container">
 
                 <h3>Contact</h3>
@@ -346,34 +362,17 @@
                     <button href="#" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
-        </section>
+        </section> -->
         <!-- /.section-form -->
 
     </main>
     <!-- /#main -->
 
-    <footer id="colophon" class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <a class="icon facebook-bg" href="https://www.facebook.com/profile.php?id=100009232707149"><i class="icon-facebook"></i></a>
-                    <a class="icon twitter-bg" href="https://twitter.com/HILMIMOHAMMED7"><i class="icon-twitter"></i></a>
-                    <a class="icon linkedin-bg" href="https://www.linkedin.com/in/hilmi-mohammed-7a5536197/"><i class="icon-linkedin"></i></a>
-                </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-                    <p class="copyright">2020. All Rights Reserved</p>
-                </div>
-                <div class="col-sm-4 col-xs-3">
-                    <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- /#footer -->
 
-    <!-- Bootstrap core JavaScript
+
+
+
+ <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -382,8 +381,9 @@
     <script src="assets/js/skrollr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
-
-</body>
-
-</html>
+	<script src="assets/js/script.js"></script>
+	
+	
+<?php
+	require "footer.php";
+?>
