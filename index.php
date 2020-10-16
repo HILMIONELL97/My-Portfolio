@@ -16,7 +16,7 @@ require "header.php";
                 </div>
 
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/alex-vidal.png" alt="alex-vidal">
+                    <img src="assets/img/WhatsApp Image 2020-10-11 at 15.21.39.png" alt="HILMI Mohammed" style>
                 </div>
 
             </div>

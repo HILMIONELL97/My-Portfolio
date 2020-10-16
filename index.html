@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>HILMI's portfolio</title>
+    <title>PortfolioPerfect</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -25,7 +25,7 @@
     <!-- Favicon
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/cooltext360548234087074.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
 
     <!-- Stylesheets
     ================================================== -->
@@ -71,13 +71,23 @@
                         <li class="page-scroll"><a href="#service">Service</a></li>
                         <li class="page-scroll"><a href="#portfolio">Works</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        <li class="page-scroll"><a href="signup.php">Signup</a></li>
+
+                        <form action="includes/login.inc.php" method="POST">
+                            <input type="text" name="mailuid" placeholder="Username">
+                            <input type="password" name="pwd" placeholder="Password">
+                            <button type="submit" name="login-submit">Login</button>
+                        </form>
+
+                        <form action="includes/logout.inc.php" method="POST">
+                            <button type="submit" name="logout-submit">Logout</button>
+                        </form>
 
                     </ul>
                     <!-- /.navbar-nav -->
 
                 </div>
                 <!-- /.navbar-collapse -->
-
             </div>
         </nav>
         <!-- /.primary-navigation -->
@@ -99,7 +109,7 @@
                 </div>
 
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/WhatsApp Image 2020-10-11 at 15.21.39.png" alt="HILMI Mohammed">
+                    <img src="assets/img/WhatsApp Image 2020-10-11 at 15.21.39.png" alt="HILMI MOHAMMED">
                 </div>
 
             </div>
